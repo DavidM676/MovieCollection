@@ -36,6 +36,7 @@ public class MovieDatabaseConnector {
             return path;
         }
         public long getTime() {return done;}
+        
         public int find() {
 
 
