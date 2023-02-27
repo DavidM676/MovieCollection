@@ -18,6 +18,9 @@ public class Main {
             if (actor.equals("q")) {
                 continue;
             }
+            if (actor.equals("")) {
+                continue;
+            }
 
             MovieDatabaseConnector mdc = new MovieDatabaseConnector("Kevin Bacon", actor, movies);
             int bn = mdc.run();
