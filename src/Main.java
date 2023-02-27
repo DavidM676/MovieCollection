@@ -13,7 +13,7 @@ public class Main {
         String actor = "";
         while (!(actor.equals("q"))) {
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter an actor's name or (q) to quit: ");
+            System.out.print("\nEnter an actor's name or (q) to quit: ");
             actor = scanner.nextLine();
             if (actor.equals("q")) {
                 continue;
